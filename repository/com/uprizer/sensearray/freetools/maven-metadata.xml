@@ -3,10 +3,11 @@
   <groupId>com.uprizer.sensearray</groupId>
   <artifactId>freetools</artifactId>
   <versioning>
-    <release>1.9</release>
+    <release>1.10</release>
     <versions>
       <version>1.9</version>
+      <version>1.10</version>
     </versions>
-    <lastUpdated>20120814123954</lastUpdated>
+    <lastUpdated>20120819185849</lastUpdated>
   </versioning>
 </metadata>
