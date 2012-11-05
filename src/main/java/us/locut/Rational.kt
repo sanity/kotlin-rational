@@ -14,7 +14,7 @@ fun main(args: Array<String>): Unit {
     println(Rational("20.4") + Rational("15.2"))
 }
 
-fun Rational(val str: String): Rational {
+fun Rational(str: String): Rational {
     val dpIx = str.indexOf('.')
     if (dpIx == -1) {
         return Rational(java.lang.Long.parseLong(str))
@@ -24,7 +24,7 @@ fun Rational(val str: String): Rational {
     return Rational.createSimplified(java.lang.Long.parseLong(raw), pow10((str.length - dpIx).toLong()))
 }
 
-fun Rational(val number : Number) : Rational =
+fun Rational(number : Number) : Rational =
      when (number) {
         is Int -> Rational.create(number.toLong(), 1)
         is Long -> Rational.create(number, 1)
@@ -35,7 +35,7 @@ fun Rational(val number : Number) : Rational =
         }
     }
 
-fun gcf(val a: Long, val b: Long): Long = if (b == 0.toLong()) a else gcf(b, a % b)
+fun gcf(a: Long, b: Long): Long = if (b == 0.toLong()) a else gcf(b, a % b)
 
 private fun pow10(var exp: Long): Long {
     var result: Long = 1
@@ -48,7 +48,7 @@ private fun pow10(var exp: Long): Long {
     return result
 }
 
-class Rational private(val numerator: Long, val denominator: Long, val simplified : Boolean): Number() {
+class Rational private(numerator: Long, denominator: Long, simplified : Boolean): Number() {
     class object {
         fun create(val nominator: Long, val denominator: Long) : Rational {
             return Rational(nominator, denominator, false)
@@ -83,23 +83,23 @@ class Rational private(val numerator: Long, val denominator: Long, val simplifie
 
     public override fun toDouble(): Double = numerator.toDouble() / denominator.toDouble()
 
-    public fun minus(val other : Rational): Rational {
+    public fun minus(other : Rational): Rational {
         val mn = numerator * other.denominator
         val md = other.numerator * denominator
         return Rational.createSimplified(mn - md, denominator * other.denominator)
     }
 
-    public fun plus(val other : Rational): Rational {
+    public fun plus(other : Rational): Rational {
         val mn = numerator * other.denominator
         val md = other.numerator * denominator
         return Rational.createSimplified(mn + md, denominator * other.denominator)
     }
 
-    public fun times(val other: Long) : Rational = Rational.createSimplified(numerator * other, denominator * other)
+    public fun times(other: Long) : Rational = Rational.createSimplified(numerator * other, denominator * other)
 
-    public fun times(val other: Rational): Rational = Rational.createSimplified(numerator * other.numerator, denominator * other.denominator)
+    public fun times(other: Rational): Rational = Rational.createSimplified(numerator * other.numerator, denominator * other.denominator)
 
-    public fun div(val other: Rational): Rational = Rational.createSimplified(numerator * other.denominator, denominator * other.numerator)
+    public fun div(other: Rational): Rational = Rational.createSimplified(numerator * other.denominator, denominator * other.numerator)
 
     public fun plus(): Rational = this
 
