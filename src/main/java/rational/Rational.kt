@@ -32,7 +32,7 @@ fun Rational(number : Number) : Rational =
         else -> {
             // TODO: Make more efficient, should probably pull the double apart using Double.doubleToLongBits
             if (number is Double) {
-                require (!java.lang.Double.isInfinite(number.toDouble()) && !number.toDouble().isNaN())
+                require (!java.lang.Double.isInfinite(number.toDouble()) && !java.lang.Double.isNaN(number.toDouble()))
             }
             Rational(number.toDouble().toString())
         }
