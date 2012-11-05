@@ -1,4 +1,4 @@
-package us.locut;
+package us.rational;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
