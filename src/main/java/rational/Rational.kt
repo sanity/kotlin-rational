@@ -31,11 +31,22 @@ fun Rational(number : Number) : Rational =
         is Rational -> number
         else -> {
             // TODO: Make more efficient, should probably pull the double apart using Double.doubleToLongBits
+            if (number is Double) {
+                require (!java.lang.Double.isInfinite(number.toDouble()) && !number.toDouble().isNaN())
+            }
             Rational(number.toDouble().toString())
         }
     }
 
 fun gcf(a: Long, b: Long): Long = if (b == 0.toLong()) a else gcf(b, a % b)
+
+public fun Rational.minus(): Rational = Rational(-numerator, denominator)
+public fun Rational.plus(): Rational = this
+
+public fun Number.plus(r: Rational) : Rational = r + Rational(this)
+public fun Number.minus(r: Rational) : Rational = r - Rational(this)
+public fun Number.times(r: Rational) : Rational = r * Rational(this)
+public fun Number.div(r: Rational) : Rational = r / Rational(this)
 
 private fun pow10(var exp: Long): Long {
     var result: Long = 1
@@ -52,6 +63,7 @@ class Rational(num: Long, denom: Long): Number() {
     val numerator : Long
     val denominator : Long
     {
+        require (denom != 0.toLong())
         val absNum = Math.abs(num);
         val absDenom = Math.abs(denom);
         val gcd = gcf(absNum, absDenom)
