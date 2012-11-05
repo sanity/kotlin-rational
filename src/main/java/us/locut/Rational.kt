@@ -24,8 +24,8 @@ fun Rational(val str: String): Rational {
     return Rational.createSimplified(java.lang.Long.parseLong(raw), pow10((str.length - dpIx).toLong()))
 }
 
-fun Rational(val number : Number) : Rational {
-    return when (number) {
+fun Rational(val number : Number) : Rational =
+     when (number) {
         is Int -> Rational.create(number.toLong(), 1)
         is Long -> Rational.create(number, 1)
         is Rational -> number
@@ -34,11 +34,8 @@ fun Rational(val number : Number) : Rational {
             Rational(number.toDouble().toString())
         }
     }
-}
 
-fun gcf(val a: Long, val b: Long): Long {
-    return if (b == 0.toLong()) a else gcf(b, a % b)
-}
+fun gcf(val a: Long, val b: Long): Long = if (b == 0.toLong()) a else gcf(b, a % b)
 
 private fun pow10(var exp: Long): Long {
     var result: Long = 1
@@ -63,9 +60,8 @@ class Rational private(val numerator: Long, val denominator: Long, val simplifie
         }
     }
 
-    public override fun hashCode(): Int {
-        return Objects.hashCode(numerator, denominator)
-    }
+    public override fun hashCode(): Int = Objects.hashCode(numerator, denominator)
+
     public override fun equals(other: Any?): Boolean {
         if (other is Rational) {
             return numerator * other.denominator == other.numerator * denominator
@@ -73,28 +69,19 @@ class Rational private(val numerator: Long, val denominator: Long, val simplifie
             return false
         }
     }
-    public override fun toFloat(): Float {
-        return numerator.toFloat() / denominator.toFloat()
-    }
-    public override fun toLong(): Long {
-        return numerator / denominator
-    }
-    public override fun toInt(): Int {
-        return (numerator / denominator) as Int
-    }
-    public override fun toChar(): Char {
-        return (numerator / denominator) as Char
-    }
-    public override fun toShort(): Short {
-        return (numerator / denominator) as Short
-    }
-    public override fun toByte(): Byte {
-        return (numerator / denominator) as Byte
-    }
+    public override fun toFloat(): Float = numerator.toFloat() / denominator.toFloat()
 
-    public override fun toDouble(): Double {
-        return numerator.toDouble() / denominator.toDouble()
-    }
+    public override fun toLong(): Long = numerator / denominator
+
+    public override fun toInt(): Int = (numerator / denominator) as Int
+
+    public override fun toChar(): Char = (numerator / denominator) as Char
+
+    public override fun toShort(): Short = (numerator / denominator) as Short
+
+    public override fun toByte(): Byte = (numerator / denominator) as Byte
+
+    public override fun toDouble(): Double = numerator.toDouble() / denominator.toDouble()
 
     public fun minus(val other : Rational): Rational {
         val mn = numerator * other.denominator
@@ -108,17 +95,13 @@ class Rational private(val numerator: Long, val denominator: Long, val simplifie
         return Rational.createSimplified(mn + md, denominator * other.denominator)
     }
 
-    public fun times(val other: Long) : Rational {
-        return Rational.createSimplified(numerator * other, denominator * other)
-    }
+    public fun times(val other: Long) : Rational = Rational.createSimplified(numerator * other, denominator * other)
 
-    public fun times(val other: Rational): Rational {
-        return Rational.createSimplified(numerator * other.numerator, denominator * other.denominator)
-    }
+    public fun times(val other: Rational): Rational = Rational.createSimplified(numerator * other.numerator, denominator * other.denominator)
 
-    public fun div(val other: Rational): Rational {
-        return Rational.createSimplified(numerator * other.denominator, denominator * other.numerator)
-    }
+    public fun div(val other: Rational): Rational = Rational.createSimplified(numerator * other.denominator, denominator * other.numerator)
+
+    public fun plus(): Rational = this
 
     public fun simplify(): Rational {
         if (simplified) return this
