@@ -52,9 +52,12 @@ class Rational(num: Long, denom: Long): Number() {
     val numerator : Long
     val denominator : Long
     {
-        val gcd = gcf(num, denom)
-        numerator = num / gcd
-        denominator = denom / gcd
+        val absNum = Math.abs(num);
+        val absDenom = Math.abs(denom);
+        val gcd = gcf(absNum, absDenom)
+        val sign = if ((num < 0) == (denom < 0)) 1 else -1
+        numerator = (absNum / gcd) * sign
+        denominator = absDenom / gcd
     }
 
     public override fun hashCode(): Int = Objects.hashCode(numerator, denominator)
