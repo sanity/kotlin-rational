@@ -11,7 +11,7 @@ package rational
 import com.google.common.base.Objects
 
 fun main(args: Array<String>): Unit {
-    println(Rational("20.4") + Rational("15.2"))
+    println(5 * (15 * Rational("20.4") + Rational("15.2")))
 }
 
 fun Rational(str: String): Rational {
@@ -115,5 +115,5 @@ class Rational(num: Long, denom: Long): Number() {
 
     public fun plus(): Rational = this
 
-    public fun toString() : String = "($numerator/$denominator)"
+    public fun toString() : String = if (denominator != 1.toLong()) "($numerator/$denominator)" else "$numerator"
 }
