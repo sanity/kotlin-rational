@@ -33,25 +33,29 @@ fun Rational(number: Number): Rational =
                 }
                 // Stolen from http://goo.gl/4oXPj
                 val numberAsDouble = number.toDouble()
-                val bits = java.lang.Double.doubleToLongBits(numberAsDouble)
-                val sign = bits.ushr(63).toLong()
-                val exponent = (((bits.ushr(52)) xor (sign shl 11)) - 1023).toLong()
-                val fraction = (bits shl 12).toLong()
-                var a = 1.toLong()
-                var b = 1.toLong()
-                var i = 63
-                while (i >= 12) {
-                    a = a * 2.toLong() + ((fraction.ushr(i)) and 1)
-                    b *= 2.toLong()
-                    i--
+                if (numberAsDouble == 0.0) {
+                    Rational(0, 1)
+                } else {
+                    val bits = java.lang.Double.doubleToLongBits(numberAsDouble)
+                    val sign = bits.ushr(63).toLong()
+                    val exponent = (((bits.ushr(52)) xor (sign shl 11)) - 1023).toLong()
+                    val fraction = (bits shl 12).toLong()
+                    var a = 1.toLong()
+                    var b = 1.toLong()
+                    var i = 63
+                    while (i >= 12) {
+                        a = a * 2.toLong() + ((fraction.ushr(i)) and 1)
+                        b *= 2.toLong()
+                        i--
+                    }
+                    if (exponent > 0)
+                        a *= 1 shl exponent.toInt()
+                    else
+                        b *= 1 shl -exponent.toInt()
+                    if (sign == 1.toLong())
+                        a *= -1
+                    Rational(a, b)
                 }
-                if (exponent > 0)
-                    a *= 1 shl exponent.toInt()
-                else
-                    b *= 1 shl -exponent.toInt()
-                if (sign == 1.toLong())
-                    a *= -1
-                Rational(a, b)
             }
         }
 
