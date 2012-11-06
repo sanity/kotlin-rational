@@ -59,7 +59,7 @@ fun Rational(number: Number): Rational =
             }
         }
 
-fun gcf(a: Long, b: Long): Long = if (b == 0.toLong()) a else gcf(b, a % b)
+private fun gcd(var a: Long, var b: Long): Long  = if (b == 0.toLong()) a else gcd(b, a % b)
 
 public fun Rational.minus(): Rational = Rational(-numerator, denominator)
 public fun Rational.plus(): Rational = this
@@ -88,7 +88,7 @@ class Rational(num: Long, denom: Long): Number(), Comparable<Rational> {
         require (denom != 0.toLong())
         val absNum = Math.abs(num);
         val absDenom = Math.abs(denom);
-        val gcd = gcf(absNum, absDenom)
+        val gcd = gcd(absNum, absDenom)
         val sign = if ((num < 0) == (denom < 0)) 1 else -1
         numerator = (absNum / gcd) * sign
         denominator = absDenom / gcd
