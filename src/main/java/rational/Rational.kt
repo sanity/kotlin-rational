@@ -8,8 +8,6 @@
 
 package rational
 
-import com.google.common.base.Objects
-
 fun main(args: Array<String>): Unit {
     println(5 * (15 * Rational("20.4") + Rational("15.2")))
 }
@@ -72,7 +70,7 @@ class Rational(num: Long, denom: Long): Number() {
         denominator = absDenom / gcd
     }
 
-    public override fun hashCode(): Int = Objects.hashCode(numerator, denominator)
+    public override fun hashCode(): Int = numerator.hashCode() * 31 + denominator.hashCode();
 
     public override fun equals(other: Any?): Boolean {
         if (other is Rational) {
