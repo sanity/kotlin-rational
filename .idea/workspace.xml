@@ -2,15 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/rational/RationalTest.kt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/us/rational/AppTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RationalNumber.iml" afterPath="$PROJECT_DIR$/RationalNumber.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rational/Rational.kt" afterPath="$PROJECT_DIR$/src/main/java/rational/Rational.kt" />
     </list>
     <ignored path="RationalExp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Rational.kt" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352209514072" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/scraper/Scraper.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352156319883" ignored="false" />
-    <file path="/Dummy.txt" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352131160717" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/ANBudgetUpdater.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351789383896" ignored="false" />
+    <file path="/Rational.kt" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352223873462" ignored="false" />
+    <file path="/RationalTest.kt" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352222764156" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/Accounts.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352221891416" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/Destinations.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352221716316" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/DestinationGroups.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352221716316" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/ReportAggregates.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352221716316" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/AppnexusHtmlCreatives.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352221716316" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/HtmlCreatives.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352221716316" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/AppnexusCampaigns.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352221716316" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/AppnexusAdvertisers.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352221716316" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/ANStatsUpdater.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352221474954" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/scraper/Scraper.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352221414641" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/api/resources/RedirectWrapper.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352221414641" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/scraper/ScraperFactory.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352221414641" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/api/resources/ScraperResource.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352221414641" ignored="false" />
+    <file path="/Dummy.txt" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352221414218" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/updaters/CampaignUpdater.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352216706582" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/ANBudgetUpdater.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352216706582" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/ANReportRequest.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352216706582" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/DbPool.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352216706582" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/ANProfile.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352216706582" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/scraper/ImageRetrievers.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352216706582" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/tools/Misc.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352216706582" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/scraper/ImageProcessor.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352216706582" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/ANLineItem.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352216706582" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/scraper/TitleScraper.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352216706582" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/updaters/HtmlCreativeANUpdater.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352216706582" ignored="false" />
+    <file path="/ANStatsUpdater.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352216533366" ignored="false" />
+    <file path="/pom.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352211153158" ignored="false" />
     <file path="$PROJECT_DIR$/../bidder/src/test/java/com/onespot/bidder/utils/CreativeSyncServiceTest.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351789229386" ignored="false" />
     <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/utils/CreativeSyncService.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351789229386" ignored="false" />
     <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/amplify/dataobjects/Creative.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351547498093" ignored="false" />
@@ -23,11 +55,7 @@
     <file path="/Bid.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351545196260" ignored="false" />
     <file path="/ProfileFilter.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351269646577" ignored="false" />
     <file path="/fragment.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351267209232" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/ANReportRequest.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351182426672" ignored="false" />
     <file path="/ANBudgetUpdater.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351108289673" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/ANProfile.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351182214246" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/updaters/CampaignUpdater.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351182214246" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/ANLineItem.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351182214246" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-facesconfig_1_2.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/relaxng.rng" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/orm_1_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
@@ -125,7 +153,6 @@
     <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/amplify/dataobjects/Campaign.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351524625135" ignored="false" />
     <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/profiles/ProfileFilter.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351528019784" ignored="false" />
     <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/appnexus/dataobjects/Bid.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351889886308" ignored="false" />
-    <file path="/pom.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352065857737" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +219,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="21" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
+            <state line="36" column="23" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -201,7 +228,16 @@
       <file leaf-file-name="Rational.kt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/rational/Rational.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.025518341">
+            <state line="34" column="54" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.30326593">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RationalTest.kt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/rational/RationalTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="47" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -228,8 +264,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Rational.kt" />
         <option value="$PROJECT_DIR$/src/main/java/us/locut/Rational.kt" />
         <option value="$PROJECT_DIR$/src/main/java/us/rational/Rational.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/rational/Rational.kt" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/rational/RationalTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/rational/DoubleParseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rational/DoubleParseTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/rational/Rational.kt" />
       </list>
     </option>
   </component>
@@ -241,10 +280,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="93" />
-    <option name="y" value="96" />
-    <option name="width" value="1343" />
-    <option name="height" value="1118" />
+    <option name="x" value="448" />
+    <option name="y" value="22" />
+    <option name="width" value="1543" />
+    <option name="height" value="1121" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -309,6 +348,18 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rational" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -345,7 +396,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propCompiler" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -363,7 +414,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/us/locut" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.rational">
+  <component name="RunManager" selected="JUnit.RationalTest">
     <configuration default="false" name="rational" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="rational.namespace" />
@@ -376,6 +427,40 @@
       <module name="RationalNumber" />
       <envs />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RationalTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="rational.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="RationalNumber" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="rational" />
+      <option name="MAIN_CLASS_NAME" value="rational.RationalTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -516,18 +601,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Kotlin.rational" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.us.locut" />
-      <item index="2" class="java.lang.String" itemvalue="Application.App" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.namespace" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RationalTest" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.us.locut" />
+      <item index="3" class="java.lang.String" itemvalue="Application.App" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.namespace" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.rational" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.us.locut" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.namespace" />
-        <item index="3" class="java.lang.String" itemvalue="Application.App" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RationalTest" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.rational" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.us.locut" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.namespace" />
+        <item index="4" class="java.lang.String" itemvalue="Application.App" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -545,25 +632,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="93" y="96" width="1343" height="1118" extended-state="0" />
+    <frame x="448" y="22" width="1543" height="1121" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33066133" sideWeight="0.51272166" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3996004" sideWeight="0.49231797" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.23847695" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.48292422" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.44021377" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3461835" sideWeight="0.6693387" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33066133" sideWeight="0.48188126" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2999332" sideWeight="0.6703297" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.756847" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -626,13 +713,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="36" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rational/Rational.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="7" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
@@ -719,14 +799,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="21" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
+        <state line="36" column="23" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rational/RationalTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="47" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rational/Rational.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.025518341">
+        <state line="34" column="54" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.30326593">
           <folding />
         </state>
       </provider>

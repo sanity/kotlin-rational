@@ -22,29 +22,48 @@ fun Rational(str: String): Rational {
     return Rational(java.lang.Long.parseLong(raw), pow10((str.length - dpIx).toLong()))
 }
 
-fun Rational(number : Number) : Rational =
-     when (number) {
-        is Int -> Rational(number.toLong(), 1)
-        is Long -> Rational(number, 1)
-        is Rational -> number
-        else -> {
-            // TODO: Make more efficient, should probably pull the double apart using Double.doubleToLongBits
-            if (number is Double) {
-                require (!java.lang.Double.isInfinite(number.toDouble()) && !java.lang.Double.isNaN(number.toDouble()))
+fun Rational(number: Number): Rational =
+        when (number) {
+            is Int -> Rational(number.toLong(), 1)
+            is Long -> Rational(number, 1)
+            is Rational -> number
+            else -> {
+                if (number is Double || number is Float) {
+                    require (!java.lang.Double.isInfinite(number.toDouble()) && !java.lang.Double.isNaN(number.toDouble()))
+                }
+                // Stolen from http://goo.gl/4oXPj
+                val numberAsDouble = number.toDouble()
+                val bits = java.lang.Double.doubleToLongBits(numberAsDouble)
+                val sign = bits.ushr(63).toLong()
+                val exponent = (((bits.ushr(52)) xor (sign shl 11)) - 1023).toLong()
+                val fraction = (bits shl 12).toLong()
+                var a = 1.toLong()
+                var b = 1.toLong()
+                var i = 63
+                while (i >= 12) {
+                    a = a * 2.toLong() + ((fraction.ushr(i)) and 1)
+                    b *= 2.toLong()
+                    i--
+                }
+                if (exponent > 0)
+                    a *= 1 shl exponent.toInt()
+                else
+                    b *= 1 shl -exponent.toInt()
+                if (sign == 1.toLong())
+                    a *= -1
+                Rational(a, b)
             }
-            Rational(number.toDouble().toString())
         }
-    }
 
 fun gcf(a: Long, b: Long): Long = if (b == 0.toLong()) a else gcf(b, a % b)
 
 public fun Rational.minus(): Rational = Rational(-numerator, denominator)
 public fun Rational.plus(): Rational = this
 
-public fun Number.plus(r: Rational) : Rational = r + Rational(this)
-public fun Number.minus(r: Rational) : Rational = r - Rational(this)
-public fun Number.times(r: Rational) : Rational = r * Rational(this)
-public fun Number.div(r: Rational) : Rational = r / Rational(this)
+public fun Number.plus(r: Rational): Rational = r + Rational(this)
+public fun Number.minus(r: Rational): Rational = r - Rational(this)
+public fun Number.times(r: Rational): Rational = r * Rational(this)
+public fun Number.div(r: Rational): Rational = r / Rational(this)
 
 private fun pow10(var exp: Long): Long {
     var result: Long = 1
@@ -57,9 +76,10 @@ private fun pow10(var exp: Long): Long {
     return result
 }
 
-class Rational(num: Long, denom: Long): Number() {
-    val numerator : Long
-    val denominator : Long
+class Rational(num: Long, denom: Long): Number(), Comparable<Rational> {
+
+    val numerator: Long
+    val denominator: Long
     {
         require (denom != 0.toLong())
         val absNum = Math.abs(num);
@@ -79,6 +99,13 @@ class Rational(num: Long, denom: Long): Number() {
             return false
         }
     }
+
+    public override fun compareTo(other: Rational): Int {
+        val mNum = numerator * other.denominator;
+        val oNum = other.numerator * denominator;
+        return mNum.compareTo(oNum)
+    }
+
     public override fun toFloat(): Float = numerator.toFloat() / denominator.toFloat()
 
     public override fun toLong(): Long = numerator / denominator
@@ -93,19 +120,19 @@ class Rational(num: Long, denom: Long): Number() {
 
     public override fun toDouble(): Double = numerator.toDouble() / denominator.toDouble()
 
-    public fun minus(other : Rational): Rational {
+    public fun minus(other: Rational): Rational {
         val mn = numerator * other.denominator
         val md = other.numerator * denominator
         return Rational(mn - md, denominator * other.denominator)
     }
 
-    public fun plus(other : Rational): Rational {
+    public fun plus(other: Rational): Rational {
         val mn = numerator * other.denominator
         val md = other.numerator * denominator
         return Rational(mn + md, denominator * other.denominator)
     }
 
-    public fun times(other: Long) : Rational = Rational(numerator * other, denominator * other)
+    public fun times(other: Long): Rational = Rational(numerator * other, denominator * other)
 
     public fun times(other: Rational): Rational = Rational(numerator * other.numerator, denominator * other.denominator)
 
@@ -113,5 +140,5 @@ class Rational(num: Long, denom: Long): Number() {
 
     public fun plus(): Rational = this
 
-    public fun toString() : String = if (denominator != 1.toLong()) "($numerator/$denominator)" else "$numerator"
+    public fun toString(): String = if (denominator != 1.toLong()) "($numerator/$denominator)" else "$numerator"
 }
