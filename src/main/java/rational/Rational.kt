@@ -124,23 +124,54 @@ class Rational(num: Long, denom: Long): Number(), Comparable<Rational> {
 
     public override fun toDouble(): Double = numerator.toDouble() / denominator.toDouble()
 
-    public fun minus(other: Rational): Rational {
-        val mn = numerator * other.denominator
-        val md = other.numerator * denominator
-        return Rational(mn - md, denominator * other.denominator)
+    public fun plus(other: Number): Rational {
+         return when (other) {
+             is Rational -> {
+                 val mn = numerator * other.denominator
+                 val md = other.numerator * denominator
+                 Rational(mn + md, denominator * other.denominator)
+             }
+             else -> {
+                 this + Rational(other)
+             }
+         }
+     }
+
+    public fun minus(other: Number): Rational {
+        return when (other) {
+            is Rational -> {
+                val mn = numerator * other.denominator
+                val md = other.numerator * denominator
+                Rational(mn - md, denominator * other.denominator)
+            }
+            else -> {
+                this - Rational(other)
+            }
+        }
     }
 
-    public fun plus(other: Rational): Rational {
-        val mn = numerator * other.denominator
-        val md = other.numerator * denominator
-        return Rational(mn + md, denominator * other.denominator)
+
+    public fun times(other: Number): Rational {
+        return when (other) {
+            is Rational -> {
+                Rational(numerator * other.numerator, denominator * other.denominator)
+            }
+            else -> {
+                this * Rational(other)
+            }
+        }
     }
 
-    public fun times(other: Long): Rational = Rational(numerator * other, denominator * other)
-
-    public fun times(other: Rational): Rational = Rational(numerator * other.numerator, denominator * other.denominator)
-
-    public fun div(other: Rational): Rational = Rational(numerator * other.denominator, denominator * other.numerator)
+    public fun div(other: Number): Rational {
+        return when (other) {
+            is Rational -> {
+                Rational(numerator * other.denominator, denominator * other.numerator)
+            }
+            else -> {
+                this / Rational(other)
+            }
+        }
+    }
 
     public fun plus(): Rational = this
 
