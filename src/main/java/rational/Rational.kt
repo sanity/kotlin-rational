@@ -28,11 +28,11 @@ fun Rational(number: Number): Rational =
             is Long -> Rational(number, 1)
             is Rational -> number
             else -> {
+                val numberAsDouble = number.toDouble()
                 if (number is Double || number is Float) {
-                    require (!java.lang.Double.isInfinite(number.toDouble()) && !java.lang.Double.isNaN(number.toDouble()))
+                    require (!java.lang.Double.isInfinite(numberAsDouble) && !java.lang.Double.isNaN(numberAsDouble))
                 }
                 // Stolen from http://goo.gl/4oXPj
-                val numberAsDouble = number.toDouble()
                 if (numberAsDouble == 0.0) {
                     Rational(0, 1)
                 } else {

@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rational/Rational.kt" afterPath="$PROJECT_DIR$/src/main/java/rational/Rational.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/rational/RationalTest.kt" afterPath="$PROJECT_DIR$/src/test/java/rational/RationalTest.kt" />
     </list>
     <ignored path="RationalExp.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/README.md" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352295661061" ignored="false" />
     <file path="/RationalTest.kt" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352245300616" ignored="false" />
     <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/api/resources/ScraperResource.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352236439590" ignored="false" />
     <file path="/Dummy.txt" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352236416907" ignored="false" />
@@ -222,16 +223,28 @@
       <file leaf-file-name="Rational.kt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rational/Rational.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="9" selection-start="2766" selection-end="2766" vertical-scroll-proportion="0.0">
+            <state line="36" column="34" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RationalTest.kt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="20" selection-start="654" selection-end="654" vertical-scroll-proportion="0.38961038">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RationalTest.kt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rational/RationalTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="6" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.7760498">
+            <state line="16" column="43" selection-start="316" selection-end="347" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -261,8 +274,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/rational/DoubleParseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/rational/DoubleParseTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/rational/Rational.kt" />
         <option value="$PROJECT_DIR$/src/test/java/rational/RationalTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/rational/Rational.kt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -274,8 +288,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
-    <option name="y" value="33" />
+    <option name="x" value="210" />
+    <option name="y" value="78" />
     <option name="width" value="1543" />
     <option name="height" value="1121" />
   </component>
@@ -626,7 +640,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="33" width="1543" height="1121" extended-state="0" />
+    <frame x="210" y="78" width="1543" height="1121" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -798,16 +812,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rational/Rational.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/java/rational/RationalTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="9" selection-start="2766" selection-end="2766" vertical-scroll-proportion="0.0">
+        <state line="16" column="43" selection-start="316" selection-end="347" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rational/RationalTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rational/Rational.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="6" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.7760498">
+        <state line="36" column="34" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="20" selection-start="654" selection-end="654" vertical-scroll-proportion="0.38961038">
           <folding />
         </state>
       </provider>
