@@ -22,44 +22,42 @@ fun Rational(str: String): Rational {
     return Rational(java.lang.Long.parseLong(raw), pow10((str.length - dpIx).toLong()))
 }
 
-fun Rational(number: Number): Rational =
-        when (number) {
-            is Int -> Rational(number.toLong(), 1)
-            is Long -> Rational(number, 1)
-            is Rational -> number
-            else -> {
-                val numberAsDouble = number.toDouble()
-                if (number is Double || number is Float) {
-                    require (!java.lang.Double.isInfinite(numberAsDouble) && !java.lang.Double.isNaN(numberAsDouble))
-                }
-                // Stolen from http://goo.gl/4oXPj
-                if (numberAsDouble == 0.0) {
-                    Rational(0, 1)
-                } else {
-                    val bits = java.lang.Double.doubleToLongBits(numberAsDouble)
-                    val sign = bits.ushr(63).toLong()
-                    val exponent = (((bits.ushr(52)) xor (sign shl 11)) - 1023).toLong()
-                    val fraction = (bits shl 12).toLong()
-                    var a = 1.toLong()
-                    var b = 1.toLong()
-                    var i = 63
-                    while (i >= 12) {
-                        a = a * 2.toLong() + ((fraction.ushr(i)) and 1)
-                        b *= 2.toLong()
-                        i--
-                    }
-                    if (exponent > 0)
-                        a *= 1 shl exponent.toInt()
-                    else
-                        b *= 1 shl -exponent.toInt()
-                    if (sign == 1.toLong())
-                        a *= -1
-                    Rational(a, b)
-                }
-            }
-        }
+fun Rational(number: Int) = Rational(number.toLong(), 1)
 
-private fun gcd(var a: Long, var b: Long): Long  = if (b == 0.toLong()) a else gcd(b, a % b)
+fun Rational(number: Long) = Rational(number, 1)
+
+fun Rational(number: Number): Rational {
+    val numberAsDouble = number.toDouble()
+    if (number is Double || number is Float) {
+        require (!java.lang.Double.isInfinite(numberAsDouble) && !java.lang.Double.isNaN(numberAsDouble))
+    }
+    // Stolen from http://goo.gl/4oXPj
+    if (numberAsDouble == 0.0) {
+        return Rational(0, 1)
+    } else {
+        val bits = java.lang.Double.doubleToLongBits(numberAsDouble)
+        val sign = bits.ushr(63)
+        val exponent = (((bits.ushr(52)) xor (sign shl 11)) - 1023)
+        val fraction = (bits shl 12)
+        var a = 1.toLong()
+        var b = 1.toLong()
+        var i = 63
+        while (i >= 12) {
+            a = a * 2.toLong() + ((fraction.ushr(i)) and 1)
+            b *= 2.toLong()
+            i--
+        }
+        if (exponent > 0)
+            a *= 1 shl exponent.toInt()
+        else
+            b *= 1 shl -exponent.toInt()
+        if (sign == 1.toLong())
+            a *= -1
+        return Rational(a, b)
+    }
+}
+
+private fun gcd(var a: Long, var b: Long): Long = if (b == 0.toLong()) a else gcd(b, a % b)
 
 public fun Rational.minus(): Rational = Rational(-numerator, denominator)
 public fun Rational.plus(): Rational = this
@@ -125,17 +123,17 @@ class Rational(num: Long, denom: Long): Number(), Comparable<Rational> {
     public override fun toDouble(): Double = numerator.toDouble() / denominator.toDouble()
 
     public fun plus(other: Number): Rational {
-         return when (other) {
-             is Rational -> {
-                 val mn = numerator * other.denominator
-                 val md = other.numerator * denominator
-                 Rational(mn + md, denominator * other.denominator)
-             }
-             else -> {
-                 this + Rational(other)
-             }
-         }
-     }
+        return when (other) {
+            is Rational -> {
+                val mn = numerator * other.denominator
+                val md = other.numerator * denominator
+                Rational(mn + md, denominator * other.denominator)
+            }
+            else -> {
+                this + Rational(other)
+            }
+        }
+    }
 
     public fun minus(other: Number): Rational {
         return when (other) {
