@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rational/Rational.kt" afterPath="$PROJECT_DIR$/src/main/java/rational/Rational.kt" />
     </list>
     <ignored path="RationalExp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/README.md" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352295661061" ignored="false" />
+    <file path="/README.md" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352296292526" ignored="false" />
     <file path="/RationalTest.kt" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352245300616" ignored="false" />
     <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/api/resources/ScraperResource.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352236439590" ignored="false" />
     <file path="/Dummy.txt" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352236416907" ignored="false" />
@@ -235,7 +234,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="20" selection-start="654" selection-end="654" vertical-scroll-proportion="0.38961038">
+            <state line="8" column="54" selection-start="480" selection-end="480" vertical-scroll-proportion="0.20779221">
               <folding />
             </state>
           </provider>
@@ -831,7 +830,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="654" selection-end="654" vertical-scroll-proportion="0.38961038">
+        <state line="8" column="54" selection-start="480" selection-end="480" vertical-scroll-proportion="0.20779221">
           <folding />
         </state>
       </provider>

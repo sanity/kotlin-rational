@@ -6,11 +6,14 @@ It can be used to represent any number that can be expressed as one integer divi
 the advantage that, unlike Floats or Doubles, it will not lose precision.
 
 It takes advantage of Kotlin's operator overloading to allow you to use these Rational numbers as if they
-were primitive types.
+were primitive types.  Rational numbers are immutable.
 
 Usage Example
 =============
     Rational(1, 2) + Rational(1, 4)
+    Rational(5, 6) * 3
+    println(Rational(2, 6)) // This will print "1/3" because we always simplify if we can
+    Rational(2, 3) > Rational(3, 4)
 
 See [RationalTest.kt](https://github.com/sanity/kotlin-rational/blob/master/src/test/java/rational/RationalTest.kt) for
 more usage examples.
