@@ -31,7 +31,7 @@ And this dependency:
 		</dependency>
 ```
 
-Usage Example
+Usage example
 =============
     Rational(1, 2) + Rational(1, 4)
     Rational(5, 6) * 3
