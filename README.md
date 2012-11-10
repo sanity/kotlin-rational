@@ -8,6 +8,29 @@ the advantage that, unlike Floats or Doubles, it will not lose precision.
 It takes advantage of Kotlin's operator overloading to allow you to use these Rational numbers as if they
 were primitive types.  Rational numbers are immutable.
 
+How do I install kotlin-rational
+------------------------
+
+QuickDT is distributed using Maven.  To use it in your project just add this repository to your pom.xml file:
+
+```xml
+    	<repository>
+			<id>sanity-maven-repo</id>
+			<name>Sanity's Maven repository on GitHub</name>
+			<url>http://sanity.github.com/maven-repo/repository/</url>
+		</repository>
+```
+
+And this dependency:
+
+```xml
+		<dependency>
+			<groupId>us.locut</groupId>
+			<artifactId>RationalNumber</artifactId>
+			<version>1.0</version>
+		</dependency>
+```
+
 Usage Example
 =============
     Rational(1, 2) + Rational(1, 4)
