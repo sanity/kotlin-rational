@@ -2,17 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rational/Rational.kt" afterPath="$PROJECT_DIR$/src/main/java/rational/Rational.kt" />
     </list>
     <ignored path="RationalExp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Rational.kt" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352305774504" ignored="false" />
-    <file path="/Dummy.txt" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352297152507" ignored="false" />
+    <file path="/Rational.kt" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352817396621" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/scraper/Scraper.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352817309891" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/api/resources/ScraperResource.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352817309891" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/AppNexusApi.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352817309891" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/ANStatsUpdater.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352817309041" ignored="false" />
+    <file path="/ANStatsUpdater.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352744590723" ignored="false" />
+    <file path="$PROJECT_DIR$/../bidder/src/test/java/com/onespot/bidder/testing/DataStoreTest.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352495004763" ignored="false" />
+    <file path="/DataStoreTest.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352494928597" ignored="false" />
+    <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/training/DataStore.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352494427804" ignored="false" />
+    <file path="/DataStore.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352494425417" ignored="false" />
+    <file path="$PROJECT_DIR$/../bidder/src/test/java/com/onespot/bidder/appnexus/dataobjects/AuctionTest.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352494104282" ignored="false" />
+    <file path="$PROJECT_DIR$/../bidder/target/generated-sources/com/onespot/bidder/jooq/tables/Destinations.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352494049026" ignored="false" />
+    <file path="$PROJECT_DIR$/../bidder/target/generated-sources/com/onespot/bidder/jooq/tables/HtmlCreatives.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352494049026" ignored="false" />
+    <file path="$PROJECT_DIR$/../bidder/target/generated-sources/com/onespot/bidder/jooq/tables/AnbidderHtmlCreatives.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352494049026" ignored="false" />
+    <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/BidderBenchmarkTest.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352494011947" ignored="false" />
+    <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/engine/Bidder.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352492241028" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/IntelliJIdea12/Kotlin/lib/kotlin-plugin.jar!/jet/Unit.jet" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352490300239" ignored="false" />
+    <file path="/Dummy.txt" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352490263960" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-common_3_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721179" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/profiles-1.0.0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721179" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_5.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721179" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/settings-1.0.0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721179" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/ejb-jar_2_1.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721179" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721179" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/ejb-jar_3_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721179" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-jsptaglibrary_2_1.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721179" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_web_services_client_1_3.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721179" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-fragment_3_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721179" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application-client_5.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721178" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_web_services_client_1_2.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721178" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jsp_2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721178" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-jsptaglibrary_2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721178" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/ejb-jar_3_1.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721178" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/spring-form.tld" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721178" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/connector_1_5.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721178" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/connector_1_6.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403721178" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.4.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720795" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.5.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720795" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.1.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720795" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720795" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_5.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720795" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.3.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720795" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application_5.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/FlexCompilerSchema.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/orm_2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.2.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/j2ee_1_4.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.5.3.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_6.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.2.6.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jsp_2_2.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_web_services_1_3.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_4.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application_6.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jspxml.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/orm_1_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jspxml.tld" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-facesconfig_1_2.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/persistence.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/persistence_2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_3_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720794" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application-client_1_4.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application-client_6.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jsp_2_1.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/spring.tld" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application_1_4.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_web_services_1_2.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/j2ee_web_services_client_1_1.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/sun-jaxws.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/cxf-servlet.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/REST_SWDP.web.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wadl20090202.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/cxf-soap.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/soap-encoding1_2.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/ws-addr.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl11_mimebinding.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/jboss-jaxrpc-config_2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720793" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/jbossws-tool_1_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/jboss-ws-security_1_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/ws-policy.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/XMLSchema.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/ws-eventing.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/soap-encoding.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl12.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.5.1.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.2.0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.2.7.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.2.5.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.1.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.5.2.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl/mime/wsdl11_mimebinding.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl/soap/wsdl11_soapbinding.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl/http/wsdl11_httpbinding.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl/wsdl.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/Axis.services.wsdd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/AxisServlet.web.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/Axis2.services.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/cxf.web.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/WSServlet.web.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/Axis2Servlet.web.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/Axis2.conf_axis2.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/jaxrpc-ri-runtime.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/JAXRPCServlet.web.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/html5/xhtml5.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdd_provider_java.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/ws-addr2006.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl20.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl11_httpbinding.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/business-process.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720792" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/xjc.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/jersey.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wadl20061109.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/sun-jaxws.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/j2ee_jaxrpc_mapping_1_1.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl11.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/cxf-jaxws.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/soap-envelope.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl11_soapbinding.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/bindingfile.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/jboss-jaxws-config_2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl_customizationschema_2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/bindingschema_2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl11soap12.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/relaxng.rng" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xml.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-strict.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/catalog.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-1_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720791" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema-instance.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720779" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xinclude.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720779" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352403720779" ignored="false" />
     <file path="/README.md" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352296292526" ignored="false" />
     <file path="/RationalTest.kt" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352245300616" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/api/resources/ScraperResource.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352236439590" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/scraper/Scraper.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352236412526" ignored="false" />
     <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/scraper/TitleScraper.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352236412526" ignored="false" />
     <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/scraper/ScraperFactory.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352236412526" ignored="false" />
     <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/scraper/ImageRetrievers.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352236412526" ignored="false" />
@@ -22,16 +153,6 @@
     <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/DbPool.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352236412526" ignored="false" />
     <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/ANReportRequest.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352236412526" ignored="false" />
     <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/AmplifyMain.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352236412525" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/ANStatsUpdater.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352236412525" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/AppnexusCampaigns.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352229910631" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/HtmlCreatives.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352229910631" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/ReportAggregates.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352229910631" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/AppnexusAdvertisers.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352229910631" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/Accounts.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352229910631" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/AppnexusHtmlCreatives.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352229910631" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/Destinations.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352229910631" ignored="false" />
-    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/DestinationGroups.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352229910631" ignored="false" />
-    <file path="/ANStatsUpdater.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352229366453" ignored="false" />
     <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/updaters/CampaignUpdater.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352216706582" ignored="false" />
     <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/ANBudgetUpdater.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352216706582" ignored="false" />
     <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/adnetworks/appnexus/ANProfile.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352216706582" ignored="false" />
@@ -40,114 +161,45 @@
     <file path="/pom.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352211153158" ignored="false" />
     <file path="$PROJECT_DIR$/../bidder/src/test/java/com/onespot/bidder/utils/CreativeSyncServiceTest.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351789229386" ignored="false" />
     <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/utils/CreativeSyncService.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351789229386" ignored="false" />
-    <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/amplify/dataobjects/Creative.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351547498093" ignored="false" />
-    <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/appnexus/dataobjects/Auction.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351546858361" ignored="false" />
     <file path="/Auction.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351546850316" ignored="false" />
     <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/broker/BidKiosk.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351545863419" ignored="false" />
-    <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/engine/Bidder.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351545863419" ignored="false" />
     <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/appnexus/dataobjects/BidRequest.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351545863419" ignored="false" />
     <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/amplify/dataobjects/AssetPool.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351545863419" ignored="false" />
     <file path="/Bid.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351545196260" ignored="false" />
     <file path="/ProfileFilter.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351269646577" ignored="false" />
     <file path="/fragment.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351267209232" ignored="false" />
     <file path="/ANBudgetUpdater.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351108289673" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-facesconfig_1_2.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/relaxng.rng" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/orm_1_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jspxml.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_4.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_web_services_1_3.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jsp_2_2.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_6.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/j2ee_1_4.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/orm_2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_5.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_web_services_client_1_3.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/ejb-jar_3_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/ejb-jar_2_1.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_5.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-common_3_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/connector_1_6.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/connector_1_5.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/spring-form.tld" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/ejb-jar_3_1.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl11_soapbinding.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-jsptaglibrary_2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/soap-envelope.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624800" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jsp_2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_web_services_client_1_2.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/cxf-jaxws.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl11.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application-client_5.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/j2ee_jaxrpc_mapping_1_1.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-fragment_3_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wadl20061109.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-jsptaglibrary_2_1.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/jersey.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/business-process.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl20.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema-instance.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/ws-addr2006.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdd_provider_java.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl11soap12.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/bindingschema_2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-strict.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl_customizationschema_2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/jboss-jaxws-config_2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-1_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/bindingfile.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl12.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/soap-encoding.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/XMLSchema.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/catalog.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/jboss-ws-security_1_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624801" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/jbossws-tool_1_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xml.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl11_mimebinding.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/ws-addr.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-2_0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/soap-encoding1_2.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/cxf-soap.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wadl20090202.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/REST_SWDP.web.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/cxf-servlet.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/sun-jaxws.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/JAXRPCServlet.web.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/Axis2.conf_axis2.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/Axis2Servlet.web.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/WSServlet.web.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/cxf.web.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/Axis2.services.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/AxisServlet.web.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/resources/Axis.services.wsdd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl/wsdl.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl/http/wsdl11_httpbinding.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl/soap/wsdl11_soapbinding.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/WebServices/lib/WebServices.jar!/schemas/wsdl/mime/wsdl11_mimebinding.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/settings-1.0.0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/profiles-1.0.0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/html5/xhtml5.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.5.2.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.1.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.2.5.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.2.0.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.5.3.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624802" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.2.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624803" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/FlexCompilerSchema.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624803" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.3.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624803" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.3.1.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624803" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/flex/lib/FlexSupport.jar!/schemas/AIR_Descriptor.1.5.xsd" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270624803" ignored="false" />
     <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/CreativeAndCampaignManager.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351270654655" ignored="false" />
     <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/utils/AssetManager.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351524625135" ignored="false" />
     <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/utils/DbPool.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351524625135" ignored="false" />
     <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/amplify/dataobjects/Campaign.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351524625135" ignored="false" />
     <file path="$PROJECT_DIR$/../amplify/src/main/java/amplify/profiles/ProfileFilter.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351528019784" ignored="false" />
-    <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/appnexus/dataobjects/Bid.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1351889886308" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/IntelliJIdea12/Kotlin/lib/kotlin-plugin.jar!/jet/Collections.jet" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352312868983" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/IntelliJIdea12/Kotlin/lib/kotlin-plugin.jar!/jet/Iterables.jet" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352312868983" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/IntelliJIdea12/Kotlin/lib/kotlin-plugin.jar!/jet/Library.jet" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352312868983" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/IntelliJIdea12/Kotlin/lib/kotlin-plugin.jar!/jet/Nothing.jet" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352312868983" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/IntelliJIdea12/Kotlin/lib/kotlin-plugin.jar!/jet/Arrays.jet" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352312868983" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/IntelliJIdea12/Kotlin/lib/kotlin-plugin.jar!/jet/ExtensionFunctions.jet" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352312868983" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/IntelliJIdea12/Kotlin/lib/kotlin-plugin.jar!/jet/Enum.jet" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352312868983" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/IntelliJIdea12/Kotlin/lib/kotlin-plugin.jar!/jet/Functions.jet" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352312868983" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/IntelliJIdea12/Kotlin/lib/kotlin-plugin.jar!/jet/Iterators.jet" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352312868983" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/IntelliJIdea12/Kotlin/lib/kotlin-plugin.jar!/jet/Numbers.jet" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352312868983" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/IntelliJIdea12/Kotlin/lib/kotlin-plugin.jar!/jet/Any.jet" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352312868983" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/IntelliJIdea12/Kotlin/lib/kotlin-plugin.jar!/jet/Tuples.jet" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352312868984" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/IntelliJIdea12/Kotlin/lib/kotlin-plugin.jar!/jet/Ranges.jet" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352312868984" ignored="false" />
+    <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/amplify/dataobjects/Creative.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352344626962" ignored="false" />
+    <file path="$PROJECT_DIR$/../bidder/pom.xml" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352344626962" ignored="false" />
+    <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/appnexus/dataobjects/Auction.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352344626962" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/enums/ReportAggregatesPeriodLength.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352393597746" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/AppnexusCampaigns.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352393597746" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/Destinations.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352393597746" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/DestinationGroups.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352393597746" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/AppnexusHtmlCreatives.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352393597746" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/AppnexusAdvertisers.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352393597746" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/ReportAggregates.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352393597746" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/Accounts.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352393597746" ignored="false" />
+    <file path="$PROJECT_DIR$/../amplify/target/generated-sources/amplify/jooq/tables/HtmlCreatives.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352393597746" ignored="false" />
+    <file path="$PROJECT_DIR$/../bidder/src/main/java/com/onespot/bidder/appnexus/dataobjects/Bid.java" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1352480931942" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +217,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -200,7 +252,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -211,19 +263,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="23" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+            <state line="6" column="17" selection-start="347" selection-end="347" vertical-scroll-proportion="0.1536">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rational.kt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Rational.kt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rational/Rational.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.10559006">
+            <state line="175" column="48" selection-start="5352" selection-end="5352" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -231,11 +283,8 @@
       </file>
       <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="54" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+            <state line="31" column="3" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -271,12 +320,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Rational.kt" />
         <option value="$PROJECT_DIR$/src/main/java/us/locut/Rational.kt" />
         <option value="$PROJECT_DIR$/src/main/java/us/rational/Rational.kt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/rational/DoubleParseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/rational/DoubleParseTest.kt" />
         <option value="$PROJECT_DIR$/src/test/java/rational/RationalTest.kt" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/rational/Rational.kt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -288,8 +337,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="554" />
-    <option name="y" value="22" />
+    <option name="x" value="380" />
+    <option name="y" value="175" />
     <option name="width" value="1543" />
     <option name="height" value="1121" />
   </component>
@@ -319,7 +368,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -397,6 +445,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -547,6 +596,7 @@
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="GLUE" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -640,14 +690,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="554" y="22" width="1543" height="1121" extended-state="0" />
+    <frame x="380" y="175" width="1543" height="1121" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3996004" sideWeight="0.48964596" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32867134" sideWeight="0.6005344" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34765235" sideWeight="0.31262526" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -656,13 +706,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2999332" sideWeight="0.67132866" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.68603873" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2999332" sideWeight="0.6523476" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.6826987" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.49786553" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32867134" sideWeight="0.39478958" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.39078155" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -805,21 +855,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="23" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+        <state line="31" column="3" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="54" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/rational/RationalTest.kt">
@@ -831,7 +874,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rational/Rational.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="699" selection-end="699" vertical-scroll-proportion="0.10559006">
+        <state line="175" column="48" selection-start="5352" selection-end="5352" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="347" selection-end="347" vertical-scroll-proportion="0.1536">
           <folding />
         </state>
       </provider>

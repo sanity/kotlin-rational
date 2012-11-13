@@ -4,12 +4,18 @@
 
     <groupId>us.locut</groupId>
     <artifactId>RationalNumber</artifactId>
-    <version>1.0</version>
+    <version>1.01</version>
     <packaging>jar</packaging>
 
     <name>RationalNumber</name>
     <url>http://maven.apache.org</url>
 
+    <distributionManagement>
+        <repository>
+            <id>gh-pages</id>
+            <url>file:///Users/ian/Documents/maven-repo/repository</url>
+        </repository>
+    </distributionManagement>
 
     <repositories>
         <repository>
@@ -31,9 +37,9 @@
 
     <dependencies>
         <dependency>
-        	<groupId>junit</groupId>
-        	<artifactId>junit</artifactId>
-        	<version>4.10</version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
             <scope>test</scope>
         </dependency>
         <dependency>

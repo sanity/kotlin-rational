@@ -171,6 +171,10 @@ class Rational(num: Long, denom: Long): Number(), Comparable<Rational> {
         }
     }
 
+    public fun component1() : Long = numerator
+
+    public fun component2() : Long = denominator
+
     public fun plus(): Rational = this
 
     public fun toString(): String = if (denominator != 1.toLong()) "($numerator/$denominator)" else "$numerator"
