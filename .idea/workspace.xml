@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rational/Rational.kt" afterPath="$PROJECT_DIR$/src/main/java/rational/Rational.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" name="Default" comment="" />
     <ignored path="RationalExp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Rational.kt" changelist="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" time="1354025905685" ignored="false" />
@@ -283,19 +278,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+            <state line="6" column="17" selection-start="347" selection-end="347" vertical-scroll-proportion="0.16410257">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rational.kt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Rational.kt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rational/Rational.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="54" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.6837607">
+            <state line="68" column="67" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -399,6 +394,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="RationalExp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RationalExp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RationalNumber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -642,10 +647,10 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="97cfbba1-dec8-4e92-ae1e-4d17cedb13f2" name="Default" comment="" />
       <created>1351030085301</created>
-      <timeSpent>506875000</timeSpent>
+      <timeSpent>506934000</timeSpent>
       <updated>1351030085301</updated>
     </task>
-    <option name="myTotallyTimeSpent" value="506875000" />
+    <option name="myTotallyTimeSpent" value="506934000" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -835,16 +840,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rational/Rational.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+        <state line="68" column="67" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rational/Rational.kt">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="54" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.6837607">
+        <state line="6" column="17" selection-start="347" selection-end="347" vertical-scroll-proportion="0.16410257">
           <folding />
         </state>
       </provider>

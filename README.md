@@ -27,7 +27,7 @@ And this dependency:
 		<dependency>
 			<groupId>us.locut</groupId>
 			<artifactId>RationalNumber</artifactId>
-			<version>1.0</version>
+			<version>1.02</version>
 		</dependency>
 ```
 
