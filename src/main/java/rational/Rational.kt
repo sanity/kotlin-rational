@@ -8,6 +8,8 @@
 
 package rational
 
+import java.io.Serializable
+
 fun main(args: Array<String>): Unit {
     println(5 * (15 * Rational("20.4") + Rational("15.2")))
 }
@@ -78,7 +80,7 @@ private fun pow10(var exp: Long): Long {
     return result
 }
 
-class Rational(num: Long, denom: Long): Number(), Comparable<Rational> {
+class Rational(num: Long, denom: Long): Number(), Comparable<Rational>, Serializable {
 
     val numerator: Long
     val denominator: Long
