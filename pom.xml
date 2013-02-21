@@ -4,7 +4,11 @@
 
     <groupId>us.locut</groupId>
     <artifactId>RationalNumber</artifactId>
-    <version>1.02</version>
+    <version>1.03</version>
+    <properties>
+        <kotlin.version>0.4.297</kotlin.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
     <packaging>jar</packaging>
 
     <name>RationalNumber</name>
@@ -31,10 +35,6 @@
         </pluginRepository>
     </pluginRepositories>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -45,7 +45,7 @@
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib</artifactId>
-            <version>0.1.3395</version>
+            <version>${kotlin.version}</version>
         </dependency>
     </dependencies>
 </project>

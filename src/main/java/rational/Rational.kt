@@ -80,7 +80,7 @@ private fun pow10(var exp: Long): Long {
     return result
 }
 
-class Rational(num: Long, denom: Long): Number(), Comparable<Rational>, Serializable {
+class Rational(num: BigInteger, denom: BigInteger): Number(), Comparable<Rational>, Serializable {
 
     val numerator: Long
     val denominator: Long
@@ -179,5 +179,5 @@ class Rational(num: Long, denom: Long): Number(), Comparable<Rational>, Serializ
 
     public fun plus(): Rational = this
 
-    public fun toString(): String = if (denominator != 1.toLong()) "($numerator/$denominator)" else "$numerator"
+    public override fun toString(): String = if (denominator != 1.toLong()) "($numerator/$denominator)" else "$numerator"
 }
